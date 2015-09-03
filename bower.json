@@ -1,0 +1,28 @@
+{
+  "name": "basuritas.com",
+  "version": "0.0.0",
+  "authors": [
+    "Mauro Trigo <mauro.trigo@gmail.com>"
+  ],
+  "description": "Global Academy - basuritas.com",
+  "main": "index.html",
+  "keywords": [
+    "global",
+    "academy",
+    "bolivia"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bower": "*",
+    "install": "~1.0.4",
+    "parse-js-sdk": "~1.4.2"
+  }
+}

@@ -1,0 +1,6 @@
+var appConfig = {
+	parseApp: {
+		id: 'APP_ID',
+		key: 'APP_KEY'
+	}
+};

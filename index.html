@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basuritas</title>
+	<link href='http://fonts .googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<!-- components js -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/parse-js-sdk/lib/parse.js"></script>
+	<!-- js -->
+	<script src="js/config.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<a href="index.html" class="logo">
+				<img src="img/eco-logo.png" alt="ecologia logo" />
+			</a>
+			<h1><a href="index.html">trash</a></h1>
+			<nav id='menu-superior'>
+				<ul>
+					<li><a href="puntos-reciclaje.html">puntos de reciclaje</a></li>
+					<li><a href="denuncia.html">denuncias</a></li>
+					<li><a href="informacion.html">informacion</a></li>
+					<li><a href="contacto.html">contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="contenedor">
+		<!--ubicacion y noticias-->
+		<div class="main-content">
+			<div class="mapa">
+				<h2>mapa</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44338.06205195533!2d-66.16589751587985!3d-17.392454893329884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1441060547105" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+				</iframe>
+			</div>
+			<!--noticias-->
+			<div class="news">
+				<h2 class="news__title">noticias</h2>
+				<ul class="news__list">
+					<li class="news__item">
+						<a href="http://www.bbc.com/mundo/noticias/2012/11/121126_autismo_contaminacion_riesgo_men" class="news__link">
+							<img src="img/noticias.png" alt="autismo" />
+							No es la primera vez que un estudio encuentra un vínculo entre la
+							contaminación del aire y un mayor riesgo de autismo...
+						</a>
+					</li>
+					<li class="news__item">
+						<a href="https://www.veoverde.com/2013/06/los-10-paises-mas-contaminantes-del-mundo/" class="news__link">
+							<img src="img/ciudad.jpg" alt="contaminacion" />
+							Los diez países más contaminados del planeta
+							Te presentamos en la siguiente lista las 10
+							naciones más contaminadas del mundo...
+						</a>
+					</li>
+					<li class="news__item">
+						<a href="http://elpais.com/elpais/2015/06/05/ciencia/1433498580_558358.html" class="news__link">
+							<img src="img/cotoi.png" alt="coto" />
+							El máximo órgano ejecutivo de la OMS, que reúne a todos los
+							Estados miembros, aprobó la primera resolución de la historia....
+						</a>
+					</li>
+					<li class="news__item">
+						<a href="http://elcomercio.pe/peru/junin/oroya-piden-audiencias-publicas-sobre-calidad-ambiental-noticia-1821988" class="news__link">
+							<img src="img/noticias2.jpg" alt="la oroya" />
+							La Oroya: Piden audiencias públicas sobre calidad ambiental
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--reducir reciclar y reutilizar-->
+		<section class="information">
+			<ul class="information__list">
+				<li class="information__item">
+					<a href="reducir.html" class="information__link">
+						<article class="reciclaje">
+							<h3 class="reciclaje__title">Reducir</h3>
+							<figure class="reciclaje__figure">
+								<img src="img/reducir-2.png" alt="bota reciclada" />
+							</figure>
+						</article>
+					</a>
+				</li>
+				<li class="information__item">
+					<a href="reciclar.html" class="information__link">
+						<article class="reciclaje">
+							<h3 class="reciclaje__title">Reciclar</h3>
+							<figure class="reciclaje__figure">
+								<img src="img/reciclar-2.png" alt="bota reciclada" />
+							</figure>
+						</article>
+					</a>
+				</li>
+				<li class="information__item">
+					<a href="reutilizar.html" class="information__link">
+						<article class="reciclaje">
+							<h3 class="reciclaje__title">Reutilizar</h3>
+							<figure class="reciclaje__figure">
+								<img src="img/reutilizar-2.png" alt="bota reciclada" />
+							</figure>
+						</article>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!--video-->
+		<section class="video-information">
+			<h2 class="video-information__title">Contaminación y Conciencia</h2>
+			<ul class="video-information__list">
+				<li class="video-information__item">
+					<div class="audiovisual">
+						<iframe width="280" height="150" src="https://www.youtube.com/embed/YZh5ypLjpO0" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</li>
+				<li class="video-information__item">
+					<div class="audiovisual">
+						<iframe width="280" height="150" src="https://www.youtube.com/embed/5L8OBir4qkc" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</li>
+				<li class="video-information__item">
+					<div class="audiovisual">
+						<iframe width="280" height="150" src="https://www.youtube.com/embed/HvfkaniE3iU" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<!--tips e informacion-->
+		<section>
+			<div class="info-adicional">
+				<h2>tips para reciclar en casa</h2>
+				<ul class="info-adicional__list">
+					<li class="info-adicional__elemento">
+						<a href="http://www.guiainfantil.com/articulos/ocio/manualidades/manualidades-con-materiales-de-reciclaje-para-ninos/" class="tip__link">
+							<article class="tip__article">
+								<figure class="tip__img">
+									<img src="img/bota.jpg" alt="bota reciclada" />
+								</figure>
+								<h3>Colores y Naturaleza</h3>
+							</article>
+						</a>
+					</li>
+					<li class="info-adicional__elemento">
+						<a href="http://ecocosas.com/rec/ideas-plastico/" class="tip__link">
+							<article class="tip__article">
+								<figure class="tip__img">
+									<img src="img/botella.jpg" alt="botella reciclada" />
+								</figure>
+								<h3>Cultivando Especies</h3>
+							</article>
+						</a>
+					</li>
+					<li class="info-adicional__elemento">
+						<a href="http://www.decosantis.com/"class="tip__link">
+							<article class="tip__article">
+								<figure class="tip__img">
+									<img src="img/silla.jpg" alt="silla reciclada" />
+								</figure>
+								<h3>Creatividad y Uso</h3>
+							</article>
+						</a>
+					</li>
+					<li class="info-adicional__elemento">
+						<a href="http://es.calameo.com/books/00098530567039ad1a263" class="tip__link">
+							<article class="tip__article">
+								<figure class="tip__img">
+									<img src="img/contenedor.jpg" alt="contenedor reciclaje" />
+								</figure>
+								<h3>Clasificando Desechos</h3>
+							</article>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<p>Proyecto Basurita - Global Shapers</p>
+	</footer>
+</body>
+</html>

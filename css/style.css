@@ -1,0 +1,390 @@
+/*styles*/
+html{
+	height: 100%;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #C2D597;
+	height: 100%;
+
+}
+
+.image.image--small {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.contenedor{
+	max-width: 80em;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+/*cabecera*/
+header{
+	background-color: #0B486B;
+
+}
+
+header:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+header h1{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0.3em;
+	float: left;
+	line-height: 2em;
+	margin-left: -105px;
+	font-size: 2.1em;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: #CFF09E;
+}
+
+header .logo{
+	float: left;
+}
+
+header .logo img{
+	width: 43%;
+}
+
+header #menu-superior{
+	float: right;
+	line-height: 2.5em;
+	padding: 0 1em;
+}
+
+header #menu-superior a{
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+header #menu-superior ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #menu-superior ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header #menu-superior ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 1em;
+	transition: 0.5s all ease;
+}
+
+header #menu-superior ul li a:hover{
+	background-color: #79BD9A;
+	color: white;
+}
+/*main content*/
+.main-content{
+	padding: 3em 0;
+}
+
+/*mapa*/
+.mapa{
+	border: 15px;
+	width: 50%;
+	float: left;
+}
+.mapa h2{
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0.5em;
+	color: #143570;
+	font-size: 2em;
+	font-weight: 200;
+}
+/*noticias*/
+.news{
+	border: 15px;
+	width: 50%;
+	float: left;
+}
+
+.news .news__title{
+	text-transform: uppercase;
+	color: #143570;
+	font-weight: 200;
+}
+
+.news .news__list{
+	background-color: #ECECEC;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news .news__item{
+	width: 37em;
+	display: list-item;
+	margin: 0.5em
+}
+
+.news .news__link{
+	float: right;
+	width: 36em;
+	margin-top: 2px;
+	text-decoration: none;
+	line-height: 1.5em;
+	color: black;
+}
+
+.news .news__link img{
+	float: left;
+	width: 20%;
+	margin: 1em;
+}
+
+.news__list li:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+/*reducir reciclar y reutilizar*/
+.info-adicional__list{
+	font-size: 0;
+	text-align: center;
+}
+
+.info-adicional__list > li{
+	display: inline-block;
+	width: 20%;
+	font-size: 1rem;
+	padding: 1.3em;
+}
+
+.info-adicional__list > li:hover{
+	background-color: #ECECEC;
+}
+
+/*reducir reciclar y reutilizar*/
+.information{
+	text-align: center;
+}
+
+.information__list{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.information__item{
+	display: inline-block;
+	width: 20%;
+	font-size: 1rem;
+	padding: 0.3em;
+}
+
+.information__link{
+	text-decoration: none;
+}
+
+.reciclaje{
+	text-align: center;
+}
+
+.reciclaje .reciclaje__title{
+	text-align: center;
+	color: #143570;
+	font-size: 2em;
+	margin: 0.5em;
+}
+
+.reciclaje .reciclaje__figure{
+	margin: 0;
+}
+
+.reciclaje img{
+	width: 50%;
+}
+
+/*video*/
+.video-information__title{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0.5em;
+	color: #143570;
+	font-size: 2em;
+}
+
+.video-information{
+	padding: 2em 7em;
+}
+
+.video-information__list{
+	padding: 0;
+	font-size: 0;
+}
+
+.video-information__item{
+	display: inline-block;
+	font-size: 1rem;
+}
+
+.audiovisual{
+	background-color: #ECECEC;
+	padding: 2em;
+}
+
+/*tips*/
+.info-adicional{
+	margin: 0;
+}
+
+.info-adicional h2{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0.5em;
+	color: #143570;
+	font-size: 2em;
+}
+
+.info-adicional__list{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.info-adicional__elemento{
+	display: inline-block;
+	font-size: 1rem;
+}
+
+.tip__link{
+	text-decoration: none;
+	color: #143570;
+}
+
+.tip__img{
+	margin: 0;
+}
+
+.tip__img img{
+	width: 100%;
+}
+
+.tip__article h3{
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0.1em;
+	text-align: center;
+}
+
+/*denuncia*/
+.form{
+
+}
+
+.complaint-form{
+	width: 27em;
+	margin: 5em auto;
+	padding: 1.5em;
+	background-color: #ECECEC;
+}
+
+.complaint-form .complaint-form__title{
+	text-align: center;
+	font-size: 1.5em;
+	color: #143570;
+	text-transform: uppercase;
+}
+
+label .complaint-form__label-title{
+	width: 20em;
+}
+
+/*contacto.html*/
+/*formulario*/
+.contacto{
+	min-height: 100%;
+}
+.contacto-block{
+	width: 27em;
+	margin: 5em auto;
+	padding: 1.5em;
+	background-color: #ECECEC;
+}
+.contacto h2 {
+	text-align: center;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #143570;
+}
+.contacto input{
+	width: 100%;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.contacto textarea{
+	width: 100%;
+	height: 200px;
+}
+.contacto button{
+	width: 30%;
+	margin: 0;
+	padding: 0.5em;
+	background-color: #143570;
+	color: white;
+	border-radius: 0.3em;
+	text-align: center;
+}
+
+/*reducir.html*/
+/*content*/
+.recycle{
+	width: 40em;
+	margin: 5em auto;
+	padding: 1.5em;
+	background-color: #ECECEC;
+}
+
+.recycle__title{
+	text-align: center;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #143570;
+}
+
+.recycle__img{
+	text-align: center;
+}
+
+.recycle__link{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #143570;
+}
+
+/*pie de pagina*/
+footer{
+	background-color: #0B486B;
+	clear: both;
+	padding: 2em;
+	height: 50px;
+	width: 100%;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	margin: 0;
+	font-size: 1.3em;
+}
